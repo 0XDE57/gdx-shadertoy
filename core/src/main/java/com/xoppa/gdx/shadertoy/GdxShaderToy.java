@@ -33,7 +33,6 @@ public class GdxShaderToy extends ApplicationAdapter {
         startTimeMillis = TimeUtils.millis();
         fpsStartTimer = TimeUtils.nanoTime();
         Pixmap pixmap = new Pixmap(0, 0, Pixmap.Format.RGB565);
-
         img = new Texture(pixmap);
         pixmap.dispose();
 
@@ -98,8 +97,8 @@ public class GdxShaderToy extends ApplicationAdapter {
         logger.info(Gdx.graphics.getGLVersion().getDebugVersionString());
 
 
-        String vertexPath = "shaders/water.vertex.glsl";
-        String fragmentPath = "shaders/water.fragment.glsl";
+        String vertexPath = "shaders/seascape.vertex.glsl";
+        String fragmentPath = "shaders/seascape.fragment.glsl";
         //vertexPath ="shaders/stars.vertex.glsl";
         //fragmentPath = "shaders/stars.fragment.glsl";
         logger.info("loading: " + vertexPath + ", " + fragmentPath);
