@@ -1,6 +1,13 @@
-apply plugin: "java"
-
-sourceCompatibility = 1.7
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
 
-sourceSets.main.java.srcDirs = [ "src/" ]
+dependencies {
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+  //api "com.github.tommyettinger:anim8-gdx:$anim8Version"
+  //api "com.github.tommyettinger:colorful:$colorfulVersion"
+  api "com.kotcrab.vis:vis-ui:$visUiVersion"
+
+  if(enableGraalNative == 'true') {
+    implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
+  }
+}
