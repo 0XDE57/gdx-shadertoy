@@ -13,3 +13,4 @@ Original project no longer maintained by Xoppa. This fork brings this tool up to
 Great GLSL resources:
 * https://github.com/mattdesl/lwjgl-basics/wiki
 * https://thebookofshaders.com/
+* http://web.archive.org/web/20221109045017/http://mew.cx/glsl_quickref.pdf
