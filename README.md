@@ -7,9 +7,9 @@ Original project no longer maintained by Xoppa. This fork brings this tool up to
 - add some test shaders
 - todo: menu bar
 - todo: add migration guide for shader toys to libGDX
-there are some notes here: https://gamedev.stackexchange.com/questions/186477/why-dont-shadertoy-shaders-work-with-libgdx
-this video covers it: https://www.youtube.com/watch?v=gCR_ikOdaUc
+  * there are some notes here: https://gamedev.stackexchange.com/questions/186477/why-dont-shadertoy-shaders-work-with-libgdx
+  * this video covers it: https://www.youtube.com/watch?v=gCR_ikOdaUc
 
 Great GLSL resources:
-https://github.com/mattdesl/lwjgl-basics/wiki
-https://thebookofshaders.com/
+* https://github.com/mattdesl/lwjgl-basics/wiki
+* https://thebookofshaders.com/
