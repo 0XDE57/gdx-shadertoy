@@ -15,3 +15,4 @@ Great GLSL resources:
 * https://thebookofshaders.com/
 * http://web.archive.org/web/20221109045017/http://mew.cx/glsl_quickref.pdf
 * https://github.com/raeleus/shadertoy-sample-project/wiki
+* https://www.youtube.com/watch?v=f4s1h2YETNY
